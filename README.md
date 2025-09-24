@@ -8,9 +8,7 @@ POE2 制作配方数据，支持多语言。
 poe2-crafting/
 ├── en/
 │   └── crafting_recipes.json
-├── zh-Hans/
-│   └── crafting_recipes.json
-└── zh-Hant/
+├── zh/
     └── crafting_recipes.json
 ```
 
@@ -24,20 +22,17 @@ https://raw.githubusercontent.com/yourusername/poe2-crafting/main
 ### 获取数据
 ```bash
 # 获取中文简体数据
-curl https://raw.githubusercontent.com/yourusername/poe2-crafting/main/zh-Hans/crafting_recipes.json
+curl https://raw.githubusercontent.com/yourusername/poe2-crafting/main/zh/crafting_recipes.json
 
 # 获取英文数据
 curl https://raw.githubusercontent.com/yourusername/poe2-crafting/main/en/crafting_recipes.json
 
-# 获取中文繁体数据
-curl https://raw.githubusercontent.com/yourusername/poe2-crafting/main/zh-Hant/crafting_recipes.json
 ```
 
 ## 支持的语言
 
 - `en` - English
-- `zh-Hans` - 简体中文
-- `zh-Hant` - 繁体中文
+- `zh` - 简体中文
 
 ## 更新数据
 
