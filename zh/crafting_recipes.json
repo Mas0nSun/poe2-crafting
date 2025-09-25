@@ -4,7 +4,7 @@
         "recipes": [
             {
                 "id": "lightning_critical_bow",
-                "title": "Lightning Critical Bow",
+                "title": "元素暴击弓",
                 "expectedMods": {
                     "prefix": [
                         "LocalAddedLightningDamage10",
@@ -163,7 +163,7 @@
             },
             {
                 "id": "lightning_bow",
-                "title": "Lightning Bow",
+                "title": "元素弓",
                 "expectedMods": {
                     "prefix": [
                         "LocalAddedLightningDamage10",
@@ -321,7 +321,7 @@
             },
             {
                 "id": "physical_bow",
-                "title": "Physical Bow",
+                "title": "物理大伤弓",
                 "expectedMods": {
                     "prefix": [
                         "LocalIncreasedPhysicalDamagePercent8",
@@ -475,7 +475,7 @@
             },
             {
                 "id": "endgame_critical_bow",
-                "title": "Endgame Critical Bow",
+                "title": "毕业镜子弓",
                 "expectedMods": {
                     "prefix": [
                         "LocalIncreasedPhysicalDamagePercent8",
