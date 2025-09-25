@@ -3,7 +3,7 @@
         "itemClass": "Bow",
         "recipes": [
             {
-                "id": "lightning_bow",
+                "id": "lightning_critical_bow",
                 "title": "Lightning Critical Bow",
                 "expectedMods": {
                     "prefix": [
