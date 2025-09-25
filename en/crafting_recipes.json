@@ -487,7 +487,8 @@
                         "AdditionalArrow2",
                         "GlobalProjectileSkillGemLevelWeapon5"
                     ],
-                    "fractured": "LocalCriticalStrikeChance6"
+                    "fractured": "LocalCriticalStrikeChance6",
+                    "veiled": "LocalAddedLightningDamage10"
                 },
                 "craftingMethods": [
                     {
