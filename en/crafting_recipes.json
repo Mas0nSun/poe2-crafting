@@ -162,6 +162,164 @@
                 ]
             },
             {
+                "id": "lightning_bow",
+                "title": "Lightning Bow",
+                "expectedMods": {
+                    "prefix": [
+                        "LocalAddedLightningDamage10",
+                        "AbyssModBowSpearAmanamuPrefixCompanionDamageAndDamageWithCompanion",
+                        "EssenceDamageasExtraLightning1"
+                    ],
+                    "suffix": [
+                        "EssenceAttackSkillLevel1H1",
+                        "EssenceOnslaughtonKill1",
+                        "AbyssModBowSpearAmanamuSuffixCompanionAndLocalAttackSpeed"
+                    ],
+                    "veiled": "AbyssModBowSpearAmanamuSuffixCompanionAndLocalAttackSpeed"
+                },
+                "craftingMethods": [
+                    {
+                        "baseRarityType": "Magic",
+                        "baseMods": {
+                            "prefix": [
+                                "LocalAddedLightningDamage10"
+                            ],
+                            "suffix": [
+                                "Any"
+                            ]
+                        },
+                        "steps": [
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyGreaterEssenceSpeed"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10"
+                                    ],
+                                    "suffix": [
+                                        "Any",
+                                        "LocalIncreasedAttackSpeed7"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnAbyssAddPrefixes",
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeapon"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10",
+                                        "VeiledPrefix"
+                                    ],
+                                    "suffix": [
+                                        "Any",
+                                        "LocalIncreasedAttackSpeed7"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyFractureRare"
+                                ],
+                                "successRate": 0.33,
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10",
+                                        "VeiledPrefix"
+                                    ],
+                                    "suffix": [
+                                        "Any",
+                                        "LocalIncreasedAttackSpeed7"
+                                    ],
+                                    "fractured": "LocalIncreasedAttackSpeed7"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnPerfectEssenceSuffix",
+                                    "Metadata/Items/Currency/CurrencyPerfectEssenceLightning"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10",
+                                        "VeiledPrefix",
+                                        "EssenceDamageasExtraLightning1"
+                                    ],
+                                    "suffix": [
+                                        "LocalIncreasedAttackSpeed7"
+                                    ],
+                                    "fractured": "LocalIncreasedAttackSpeed7"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToRare",
+                                    "Metadata/Items/Currency/CurrencyAddModToRare"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10",
+                                        "VeiledPrefix",
+                                        "EssenceDamageasExtraLightning1"
+                                    ],
+                                    "suffix": [
+                                        "LocalIncreasedAttackSpeed7",
+                                        "Any",
+                                        "Any"
+                                    ],
+                                    "fractured": "LocalIncreasedAttackSpeed7"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyPerfectEssenceSpeed"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10",
+                                        "VeiledPrefix",
+                                        "EssenceDamageasExtraLightning1"
+                                    ],
+                                    "suffix": [
+                                        "LocalIncreasedAttackSpeed7",
+                                        "EssenceOnslaughtonKill1",
+                                        "Any"
+                                    ],
+                                    "fractured": "LocalIncreasedAttackSpeed7"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyPerfectEssenceAttack",
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalAddedLightningDamage10",
+                                        "VeiledPrefix",
+                                        "EssenceDamageasExtraLightning1"
+                                    ],
+                                    "suffix": [
+                                        "LocalIncreasedAttackSpeed7",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedAttackSpeed7"
+                                },
+                                "isOptional": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": "physical_bow",
                 "title": "Physical Bow",
                 "expectedMods": {
