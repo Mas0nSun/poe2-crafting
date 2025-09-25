@@ -298,7 +298,7 @@
                             },
                             {
                                 "costs": [
-                                    "Metadata/Items/Currency/CurrencyPerfectEssenceAttack",
+                                    "Metadata/Items/Currency/CurrencyPerfectEssenceAttack"
                                 ],
                                 "expectedMods": {
                                     "prefix": [
