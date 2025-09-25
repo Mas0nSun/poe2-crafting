@@ -162,7 +162,7 @@
                 ]
             },
             {
-                "id": "endgame_critical_bow",
+                "id": "physical_bow",
                 "title": "Physical Bow",
                 "expectedMods": {
                     "prefix": [
@@ -308,6 +308,296 @@
                                         "EssenceAttackSkillLevel1H1",
                                         "AbyssModBowSpearAmanamuSuffixCompanionAndLocalAttackSpeed"
                                     ]
+                                },
+                                "isOptional": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "endgame_critical_bow",
+                "title": "Endgame Critical Bow",
+                "expectedMods": {
+                    "prefix": [
+                        "LocalIncreasedPhysicalDamagePercent8",
+                        "LocalAddedPhysicalDamage9",
+                        "LocalAddedLightningDamage10"
+                    ],
+                    "suffix": [
+                        "LocalCriticalStrikeChance6",
+                        "AdditionalArrow2",
+                        "GlobalProjectileSkillGemLevelWeapon5"
+                    ],
+                    "fractured": "LocalCriticalStrikeChance6"
+                },
+                "craftingMethods": [
+                    {
+                        "baseRarityType": "Magic",
+                        "baseSocketCount": 3,
+                        "baseMods": {
+                            "prefix": [],
+                            "suffix": [
+                                "LocalCriticalStrikeChance6"
+                            ]
+                        },
+                        "steps": [
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToMagic3",
+                                    "Metadata/Items/Currency/CurrencyUpgradeMagicToRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "Any",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeapon"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "Any",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "VeiledSuffix"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyModValues"
+                                ],
+                                "description": "Set the critical strike chance to 5%",
+                                "expectedMods": {
+                                    "prefix": [
+                                        "Any",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "VeiledSuffix"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyFractureRare",
+                                    "Metadata/Items/Currency/CurrencyHinekorasLock"
+                                ],
+                                "successRate": 0.3,
+                                "expectedMods": {
+                                    "prefix": [
+                                        "Any",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "VeiledSuffix"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyRemoveMod"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyRerollRare",
+                                    "Metadata/Items/Currency/CurrencyRerollRare2",
+                                    "Metadata/Items/Currency/CurrencyRerollRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnAbyssAddPrefixes",
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeaponHigh",
+                                    "Metadata/Items/Currency/OmenOnAbyssRerollOptions",
+                                    "Metadata/Items/Currency/OmenOnAnnulRemoveAbyssMod"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToRare"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnChaosLowestLevelMod",
+                                    "Metadata/Items/Currency/CurrencyRerollRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10",
+                                        "LocalAddedPhysicalDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToRare"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10",
+                                        "LocalAddedPhysicalDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "Any"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnChaosLowestLevelMod",
+                                    "Metadata/Items/Currency/CurrencyRerollRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10",
+                                        "LocalAddedPhysicalDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "GlobalProjectileSkillGemLevelWeapon5"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToRare"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10",
+                                        "LocalAddedPhysicalDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "GlobalProjectileSkillGemLevelWeapon5",
+                                        "Any"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnChaosLowestLevelMod",
+                                    "Metadata/Items/Currency/CurrencyRerollRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalIncreasedAccuracy10",
+                                        "LocalAddedPhysicalDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "GlobalProjectileSkillGemLevelWeapon5",
+                                        "AdditionalArrow2"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalIncreasedAccuracy10"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeaponHigh",
+                                    "Metadata/Items/Currency/OmenOnAnnulRemoveAbyssMod",
+                                    "Metadata/Items/Currency/OmenOnAbyssRerollOptions"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalAddedPhysicalDamage9",
+                                        "LocalAddedLightningDamage10"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "GlobalProjectileSkillGemLevelWeapon5",
+                                        "AdditionalArrow2"
+                                    ],
+                                    "fractured": "LocalCriticalStrikeChance6",
+                                    "veiled": "LocalAddedLightningDamage10"
                                 },
                                 "isOptional": false
                             }
