@@ -765,5 +765,129 @@
                 ]
             }
         ]
+    },
+    { 
+        "itemClass": "Ring",
+        "recipes": [
+            {
+                "id": "dual_rarity_dual_flat_damage_ring",
+                "title": "双稀有度点伤戒指",
+                "expectedMods": {
+                    "prefix": [
+                        "AddedLightningDamage9",
+                        "AddedColdDamage9",
+                        "ItemFoundRarityIncreasePrefix5"
+                    ],
+                    "suffix": [
+                        "ItemFoundRarityIncreasePrefix5",
+                        "ColdResist8",
+                        "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance"
+                    ],
+                    "veiled": "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance"
+                },
+                "craftingMethods": [
+                    {
+                        "baseRarityType": "Magic",
+                        "baseMods": {
+                            "prefix": [
+                                "ItemFoundRarityIncreasePrefix5"
+                            ],
+                            "suffix": [
+                                "ColdResist8"
+                            ]
+                        },
+                        "steps": [
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyGreaterEssenceRarity"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "ItemFoundRarityIncreasePrefix5"
+                                    ],
+                                    "suffix": [
+                                        "ItemFoundRarityIncreasePrefix5",
+                                        "ColdResist8"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyJewelleryQualityAttack"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "ItemFoundRarityIncreasePrefix5"
+                                    ],
+                                    "suffix": [
+                                        "ItemFoundRarityIncreasePrefix5",
+                                        "ColdResist8"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnExaltAddPrefixes",
+                                    "Metadata/Items/Currency/OmenOnExaltAddTwoMods",
+                                    "Metadata/Items/Currency/OmenOnExaltAddExistingModType",
+                                    "Metadata/Items/Currency/OmenOnExaltConsumeQuality"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "AddedLightningDamage9",
+                                        "AddedColdDamage9",
+                                        "ItemFoundRarityIncreasePrefix5"
+                                    ],
+                                    "suffix": [
+                                        "ItemFoundRarityIncreasePrefix5",
+                                        "ColdResist8"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnAbyssGuarenteeLichTypeMod1",
+                                    "Metadata/Items/Currency/AbyssalBenchTicketJewellery"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "AddedLightningDamage9",
+                                        "AddedColdDamage9",
+                                        "ItemFoundRarityIncreasePrefix5"
+                                    ],
+                                    "suffix": [
+                                        "ItemFoundRarityIncreasePrefix5",
+                                        "ColdResist8",
+                                        "VeiledSuffix"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnAbyssRerollOptions"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "AddedLightningDamage9",
+                                        "AddedColdDamage9",
+                                        "ItemFoundRarityIncreasePrefix5"
+                                    ],
+                                    "suffix": [
+                                        "ItemFoundRarityIncreasePrefix5",
+                                        "ColdResist8",
+                                        "AbyssModArmourJewelleryUlamanSuffixLightningChaosResistance"
+                                    ]
+                                },
+                                "isOptional": false
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 ]
