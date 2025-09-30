@@ -832,7 +832,8 @@
                                     "Metadata/Items/Currency/OmenOnExaltAddPrefixes",
                                     "Metadata/Items/Currency/OmenOnExaltAddTwoMods",
                                     "Metadata/Items/Currency/OmenOnExaltAddExistingModType",
-                                    "Metadata/Items/Currency/OmenOnExaltConsumeQuality"
+                                    "Metadata/Items/Currency/OmenOnExaltConsumeQuality",
+                                    "Metadata/Items/Currency/CurrencyAddModToRare2"
                                 ],
                                 "expectedMods": {
                                     "prefix": [
