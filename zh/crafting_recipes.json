@@ -763,6 +763,296 @@
                         ]
                     }
                 ]
+            },
+            {
+                "id": "low_cost_endgame_critical_bow",
+                "title": "低成本毕业暴击弓",
+                "expectedMods": {
+                    "prefix": [
+                        "LocalIncreasedPhysicalDamagePercent8",
+                        "LocalAddedPhysicalDamage9",
+                        "LocalAddedLightningDamage10"
+                    ],
+                    "suffix": [
+                        "LocalCriticalStrikeChance6",
+                        "EssenceOnslaughtonKill1",
+                        "EssenceAttackSkillLevel1H1"
+                    ],
+                    "fractured": "LocalIncreasedPhysicalDamagePercent8",
+                    "veiled": "LocalAddedPhysicalDamage9"
+                },
+                "craftingMethods": [
+                    {
+                        "baseRarityType": "Magic",
+                        "baseMods": {
+                            "prefix": [
+                                "LocalIncreasedPhysicalDamagePercent8"
+                            ],
+                            "suffix": [
+                                "Any"
+                            ]
+                        },
+                        "steps": [
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToMagic3",
+                                    "Metadata/Items/Currency/CurrencyUpgradeMagicToRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "Any"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeapon"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "Any",
+                                        "VeiledSuffix"
+                                    ]
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyFractureRare",
+                                    "Metadata/Items/Currency/CurrencyHinekorasLock"
+                                ],
+                                "successRate": 0.3,
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "Any",
+                                        "VeiledSuffix"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyRemoveMod"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8"
+                                    ],
+                                    "suffix": [
+                                        "Any"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyRerollRare",
+                                    "Metadata/Items/Currency/CurrencyRerollRare2",
+                                    "Metadata/Items/Currency/CurrencyRerollRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnExaltAddPrefixes",
+                                    "Metadata/Items/Currency/OmenOnExaltAddTwoMods",
+                                    "Metadata/Items/Currency/CurrencyAddModToRare"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "Any",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnPerfectEssencePrefix",
+                                    "Metadata/Items/Currency/CurrencyPerfectEssenceAttack",
+                                    "Metadata/Items/Currency/OmenOnPerfectEssencePrefix",
+                                    "Metadata/Items/Currency/CurrencyPerfectEssenceSpeed"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeapon"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "VeiledPrefix"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnAbyssRerollOptions"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "Any"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnPerfectEssencePrefix",
+                                    "Metadata/Items/Currency/CurrencyPerfectEssencePhysical"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "EssenceDamageasExtraPhysical1"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnPerfectEssencePrefix",
+                                    "MonsterEssenceAbyss",
+                                    "Metadata/Items/Currency/AbyssalBenchTicketWeapon"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "VeiledPrefix"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnAbyssRerollOptions"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalAddedPhysicalDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8",
+                                    "veiled": "LocalAddedPhysicalDamage9"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/CurrencyAddModToRare3"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalAddedPhysicalDamage9",
+                                        "AddedLightningDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8",
+                                    "veiled": "LocalAddedPhysicalDamage9"
+                                },
+                                "isOptional": false
+                            },
+                            {
+                                "costs": [
+                                    "Metadata/Items/Currency/OmenOnChaosLowestLevelMod",
+                                    "Metadata/Items/Currency/CurrencyRerollRare2"
+                                ],
+                                "expectedMods": {
+                                    "prefix": [
+                                        "LocalIncreasedPhysicalDamagePercent8",
+                                        "LocalAddedPhysicalDamage9",
+                                        "AddedLightningDamage9"
+                                    ],
+                                    "suffix": [
+                                        "LocalCriticalStrikeChance6",
+                                        "EssenceOnslaughtonKill1",
+                                        "EssenceAttackSkillLevel1H1"
+                                    ],
+                                    "fractured": "LocalIncreasedPhysicalDamagePercent8",
+                                    "veiled": "LocalAddedPhysicalDamage9"
+                                },
+                                "isOptional": false
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
