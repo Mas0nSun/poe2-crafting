@@ -972,7 +972,7 @@
                             {
                                 "costs": [
                                     "Metadata/Items/Currency/OmenOnPerfectEssencePrefix",
-                                    "MonsterEssenceAbyss",
+                                    "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss",
                                     "Metadata/Items/Currency/AbyssalBenchTicketWeapon"
                                 ],
                                 "expectedMods": {
