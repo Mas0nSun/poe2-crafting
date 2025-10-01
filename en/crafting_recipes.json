@@ -827,8 +827,7 @@
                             },
                             {
                                 "costs": [
-                                    "Metadata/Items/Currency/CurrencyFractureRare",
-                                    "Metadata/Items/Currency/CurrencyHinekorasLock"
+                                    "Metadata/Items/Currency/CurrencyFractureRare"
                                 ],
                                 "successRate": 0.3,
                                 "expectedMods": {
